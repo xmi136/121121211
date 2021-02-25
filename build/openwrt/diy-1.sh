@@ -12,6 +12,6 @@
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 #git clone https://github.com/281677160/openwrt-package package/123
-#git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
+git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone https://github.com/pymumu/smartdns
 #git clone https://github.com/281677160/openwrt-package/luci-app-smartdns package/2
